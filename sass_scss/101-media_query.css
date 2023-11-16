@@ -1,0 +1,10 @@
+/* make declaration according to media size */
+h1 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 14px;
+  }
+}
